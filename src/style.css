@@ -1,1 +1,8 @@
 @charset 'utf-8';
+
+@import "./components/GlobalNav/style.css";
+@import "./components/SideNav/style.css";
+@import "./components/Introduction/style.css";
+@import "./components/Projects/style.css";
+@import "./components/Skills/style.css";
+@import "./components/Footer/style.css";
