@@ -14,7 +14,10 @@ export default class Skills extends Component {
       <div class='skills-wrapper'>
         <h2>Skills</h2>
         <p>
-Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi laboriosam blanditiis cumque accusantium, quod iure voluptatibus, sequi quia deserunt beatae cupiditate incidunt qui odit. Nemo, numquam libero. Minima et, eum quae quidem aut quam vitae natus modi, harum perspiciatis explicabo nisi beatae aperiam dolore dolorem velit molestiae quisquam voluptas corrupti?
+        HTML / CSS / JavaScript / Typescript / React / Next.js
+        </p>
+        <p>
+        Redux / Redux-saga / sass / css-modules / styled-components / webpack
         </p>
       </div>`;
   }
