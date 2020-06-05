@@ -1,4 +1,5 @@
 import Store from "./lib/Store.js";
+import Home from "./components/Home/index.js";
 import GlobalNav from "./components/GlobalNav/index.js";
 import SideNav from "./components/SideNav/index.js";
 import Introduction from "./components/Introduction/index.js";
@@ -11,6 +12,7 @@ function reducer(state, action) {
 }
 
 const store = new Store(reducer, {});
+const home = new Home({ store });
 const footer = new Footer({ store });
 const skills = new Skills({ store });
 const projects = new Projects({ store });
@@ -21,6 +23,7 @@ const introduction = new Introduction({ store });
 window.addEventListener("DOMContentLoaded", () => {
   const $root = document.getElementById("root");
 
+  home.mount($root);
   globalNav.mount($root);
   sideNav.mount($root);
   introduction.mount($root);

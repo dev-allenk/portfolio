@@ -1,5 +1,8 @@
 @charset 'utf-8';
 
+/* TODO: @import 사용시와 html의 link 태그 사용 시 성능 비교해보고
+ 성능차이가 눈에 띄게 나는 경우 link 태그로 수정하기 */
+@import "./components/Home/style.css";
 @import "./components/GlobalNav/style.css";
 @import "./components/SideNav/style.css";
 @import "./components/Introduction/style.css";
